@@ -45,4 +45,7 @@ public class FacultyController {
     public void deleteFaculty(@PathVariable("id") Long id) {
         facultyService.deleteFaculty(id);
     }
+    {
+
+    }
 }
