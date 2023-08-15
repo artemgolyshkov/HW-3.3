@@ -41,11 +41,13 @@ public class FacultyController {
         return facultyService.editFaculty(id, faculty);
     }
 
+    {
+
+    }
+
     @DeleteMapping("/{id}")
     public void deleteFaculty(@PathVariable("id") Long id) {
         facultyService.deleteFaculty(id);
     }
-    {
 
-    }
 }
